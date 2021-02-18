@@ -1,0 +1,6 @@
+$color1: black;
+@mixin centrado {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

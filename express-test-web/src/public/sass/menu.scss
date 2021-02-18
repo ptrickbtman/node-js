@@ -1,0 +1,45 @@
+@import "setting/general.scss";
+.menu {
+    width: 100%;
+    height: 80px;
+    .container {
+        height: 100%;
+        .col-6 {
+            display: inline;
+            .contLogo {
+                width: 80px;
+                height: 80px;
+                @include centrado;
+                p {
+                    font-size: 30px;
+                    letter-spacing: -2px;
+                }
+            }
+            .hamburger {
+                width: 80px;
+                height: 80px;
+                @include centrado;
+                float: right;
+                cursor: pointer;
+                .stick {
+                    position: absolute;
+                    width: 35px;
+                    height: 4px;
+                    background-color: $color1;
+                    &.stick1 {
+                        transform: translateY(-5px);
+                        -webkit-transform: translateY(-5px);
+                        -o-transform: translateY(-5px);
+                        -moz-transform: translateY(-5px);
+                    }
+                    &.stick2 {
+                        transform: translateY(5px);
+                        -webkit-transform: translateY(5px);
+                        -o-transform: translateY(5px);
+                        -moz-transform: translateY(5px);
+                    }
+                }
+            }
+        }
+    }
+}

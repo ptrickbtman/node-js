@@ -1,0 +1,50 @@
+.menu {
+  width: 100%;
+  height: 80px;
+}
+.menu .container {
+  height: 100%;
+}
+.menu .container .col-6 {
+  display: inline;
+}
+.menu .container .col-6 .contLogo {
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.menu .container .col-6 .contLogo p {
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+.menu .container .col-6 .hamburger {
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  float: right;
+  cursor: pointer;
+}
+.menu .container .col-6 .hamburger .stick {
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: black;
+}
+.menu .container .col-6 .hamburger .stick.stick1 {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+}
+.menu .container .col-6 .hamburger .stick.stick2 {
+  transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+}
+
+/*# sourceMappingURL=menu.css.map */
